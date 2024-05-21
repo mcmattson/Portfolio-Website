@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.menu-bar {
+  width: 200px;
+  background-color: #f4f4f4;
+}
+
+nav.menu-bar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav.menu-bar li {
+  margin: 10px 0;
+}
+
+nav.menu-bar a {
+  text-decoration: none;
+  color: #333;
+}
