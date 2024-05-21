@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router'; // Import RouterModule
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module'; // Ensure correct import path
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuBarComponent } from './components/menu/menu.component';
@@ -22,8 +21,7 @@ import { ContactComponent } from './components/pages/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    RouterModule // Ensure RouterModule is imported here
+    AppRoutingModule, // Ensure AppRoutingModule is imported
   ],
   providers: [],
   bootstrap: [AppComponent]
